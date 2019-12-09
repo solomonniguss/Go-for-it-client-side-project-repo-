@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Block Study</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>Block</strong> Study</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="contacts.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			
+				<div class="blankdivider30">
+	</div>
+	<div class="row mt32">
+		<div class="span12">
+			<div class="cform" id="contact-form">
+				<div id="sendmessage">Thank you!</div>
+                <div id="errormessage"></div>
+				<form action="" method="post" role="form" class="contactForm">
+					<div class="row">
+						<div class="span6">
+							<div class="field your-name form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+							</div>
+							<div class="field your-email form-group">
+								<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+							</div>
+							<div class="field subject form-group">
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+							</div>
+						</div>
+						<div class="span6">
+							<div class="field message form-group">
+								<textarea class="form-control" id="txtMsg" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+							</div>
+							<input type="submit" value="Send message" onclick="sendmail()" class="btn btn-theme pull-left">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+			
+	<div class="row">
+		<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10230.919643630958!2d14.3779008!3d50.1287758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4e3f4626c676de9!2sKolej%20EFG!5e0!3m2!1sen!2sin!4v1575212847694!5m2!1sen!2sin" width="100%" height="460"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>		
+	</div>
+</div>		
+			
+				<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<div class="copyright">
+					&copy;All rights Reserved 2019 @ Block Study Project: <a>Used for Study Purpose Only</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
